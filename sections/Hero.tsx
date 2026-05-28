@@ -5,7 +5,6 @@ import { useEffect, useRef } from "react";
 import { Twitch, MessageCircle, Coins } from "lucide-react";
 import { KickIcon } from "@/components/icons/KickIcon";
 import { GlowButton } from "@/components/GlowButton";
-import { FloatingBadge } from "@/components/FloatingBadge";
 import { Sparkles } from "@/components/Sparkles";
 import { FloatingLabubus } from "@/components/FloatingLabubus";
 import { FloatingMangoEmotes } from "@/components/FloatingMangoEmotes";
@@ -128,9 +127,6 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="flex flex-wrap items-center justify-center gap-3 mb-8"
         >
-          <FloatingBadge variant="live" pulse>
-            Streaming Now
-          </FloatingBadge>
           <span className="font-hand text-2xl text-pink-mango -rotate-2">
             hi hi hi! ✿
           </span>
