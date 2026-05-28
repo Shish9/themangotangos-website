@@ -21,7 +21,7 @@ export const STREAMER = {
   bio: "elo my name is selina ヽ(°〇°)ﾉ — i'm 27 and on this channel you'll see me play hella variety games c: first stream was january 31, 2023.",
   twitchUrl: "https://twitch.tv/themangotangos",
   kickUrl: "https://kick.com/themangotangos",
-  discordUrl: "https://discord.gg/themangotangos",
+  discordUrl: "https://discord.com/invite/R7RxjkjKS4",
   tipUrl: "https://streamelements.com/themangotangos/tip",
 };
 
@@ -57,7 +57,7 @@ export const SOCIALS: SocialPlatform[] = [
   {
     name: "Discord",
     handle: "Mango Garden",
-    url: "https://discord.gg/themangotangos",
+    url: "https://discord.com/invite/R7RxjkjKS4",
     icon: MessageCircle,
     gradient: "from-indigo-500 via-twitch to-lavender-mango",
     shadow: "shadow-glow-purple",

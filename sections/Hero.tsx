@@ -291,16 +291,15 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="mt-16 max-w-3xl mx-auto grid grid-cols-3 gap-4 sm:gap-6"
+          className="mt-16 max-w-xl mx-auto grid grid-cols-2 gap-4 sm:gap-6"
         >
           {[
             { value: "12.4K", label: "mangoes", emoji: "🥭", variant: "pink", rotate: -3 },
             { value: "850h", label: "streamed", emoji: "⏰", variant: "lilac", rotate: 2 },
-            { value: "98%", label: "vibe score", emoji: "✨", variant: "mint", rotate: -2 },
           ].map((s) => (
             <StickyNote
               key={s.label}
-              variant={s.variant as "pink" | "lilac" | "mint"}
+              variant={s.variant as "pink" | "lilac"}
               rotate={s.rotate}
               pin
               className="text-center min-h-[120px] flex flex-col items-center justify-center"
